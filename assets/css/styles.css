@@ -19,10 +19,10 @@
   --first-color-light: #eae7e6;
   --first-color-lighten: #fffafa; */
 
-  --first-color: #00587a;
-  --first-color-dark: #1d416e;
-  --first-color-darken: #0f3057;
-  --text-color: #004044;
+  --first-color: #1b262c;
+  --first-color-dark: #0f4c75;
+  --first-color-darken: #3282b8;
+  --text-color: #5a5f61;
   --first-color-light: #eae7e6;
   --first-color-lighten: #fffafa;
 
@@ -263,7 +263,7 @@ img {
 }
 
 .home__social-link:hover {
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
 }
 
 .home__button {
@@ -547,7 +547,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(204, 75, 44, 0.7);
+  background-color: rgba(44, 132, 204, 0.7);
   border-radius: 0.5rem;
   transition: 0.3s;
 }
@@ -651,7 +651,7 @@ img {
 
 .footer__copy {
   font-size: var(--smaller-font-size);
-  color: var(--text-color);
+  color: var(--first-color-lighten);
 }
 
 /* ===== MEDIA QUERIES=====*/
